@@ -1,0 +1,189 @@
+
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+p{
+  color: #8f8f8f;
+}
+h1.text-light {
+    font-size: 3rem;
+}
+
+
+/* TITLE */
+#title{
+  background-color: black;
+}
+
+/* whole title include navbar.. */
+
+.Container-Fluid{
+
+  padding: 3% 15% 7%;
+}
+
+.image{
+  height: 80%;
+  transform: rotate(25deg);
+  position: absolute;      /* Z-index: */
+  left: 55%;
+}
+/* media query for mobile phones adjustment for responsiveness */
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+  .image{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+
+/* navigation-bar */
+
+nav.navbar.navbar-expand-lg.navbar-dark{
+padding-bottom: 4.5rem
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+a.navbar-brand {
+    font-size: 2rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+a.nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+}
+/* navigation-bar */
+
+
+
+/* title Button Size */
+.download-btn{
+  margin: 6% 3% 5% 0%;
+}
+/* TITLE end */
+
+
+/* Features */
+
+#features{
+  padding: 7% 15%;
+ background-color: #EDEDED;
+ position: relative;
+ z-index: 1;
+}
+.fea-heading{
+  font-family:"Montserrat";
+  font-size: 1.5rem;
+}
+
+.features{
+  text-align: center;
+  padding: 4.5%;
+}
+
+/* ICON */
+.icon{
+  margin-bottom: 1.5rem;
+  color: #0F0E0E;
+  /* #541212; */
+}
+.icon:hover{
+  color: #171010;
+}
+/* Features END*/
+
+
+/* Testimonials section */
+#testimonials{
+
+  text-align: center;
+  background-color: #0F0E0E;
+  color: #fff;
+
+}
+.testimonial-heading{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testi-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* PRESS */
+#press{
+  background-color: #0F0E0E;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing */
+#pricing{
+  text-align: center;
+  padding: 100px;
+  background-color: #EDEDED;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+.pri-h2{
+  font-family: "Montserrat";
+}
+.pera-p{
+  padding: 5px;
+}
+
+/* CTA */
+#cta{
+  background-color: black;
+  text-align: center;
+}
+.cta-h3{
+  font-family: "Montserrat";
+  color: #fff;
+  padding-top: 10%;
+  font-size: 2.5rem;
+}
+.btn-size{
+   padding-bottom:6% ;
+}
+.down-btn{
+  margin: 5% 20px ;
+}
+
+/* Footer */
+#footer{
+  background-color: #EDEDED;
+  text-align: center;
+  padding: 7% 15%;
+}
+.social-icons{
+    margin: 20px 10px;
+}
